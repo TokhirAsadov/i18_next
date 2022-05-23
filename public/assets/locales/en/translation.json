@@ -1,0 +1,6 @@
+{
+  "welcome_to_react": "Welcome to React and react-i18next",
+  "days_since_release": "it's been {{number_of_days}} -- {{my_function}} days",
+  "language": "Language",
+  "app_title": "The first app at i18next"
+}

@@ -1,0 +1,6 @@
+{
+  "welcome_to_react": "Добро пожаловать в React и react-i18next",
+  "days_since_release": "Прошло {{number_of_days}}  -- {{my_function}} дней",
+  "language": "Язык",
+  "app_title": "Первое приложение на i18next"
+}
