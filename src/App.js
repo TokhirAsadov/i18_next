@@ -103,4 +103,45 @@ function App() {
   );
 }
 
+//TODO-------- ===   BOOTSTRAP ISHLAMAY QOLSA REACT-BOOTSTRAP BILAN IWLATIW  =================
+/***
+ *
+ *
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+
+
+
+
+ *
+ *
+<DropdownButton
+  align="end"
+  title={<GlobeIcon />}
+  id="dropdown-menu-align-end"
+>
+  <Dropdown.Item eventKey="1"><span className={"dropdown-item"}>{t('language')}</span></Dropdown.Item>
+  <Dropdown.Divider />
+  {
+    language.map(
+      // eslint-disable-next-line array-callback-return
+      ({code,name,country_code}) =>{
+        return <Dropdown.Item eventKey={country_code}>
+          <button
+            className="dropdown-item"
+            onClick={()=>i18next.changeLanguage(code)}
+            disabled={code === currentLanguageCode}
+          >
+                      <span className={`flag-icon flag-icon-${country_code}`}
+                            style={{opacity: code === currentLanguageCode ? 0.5 : 1}}
+                      />&nbsp;
+            {name}
+          </button>
+        </Dropdown.Item>
+      })
+  }
+</DropdownButton>
+
+****/
+
 export default App;
